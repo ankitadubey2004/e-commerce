@@ -11,8 +11,7 @@ import Cart from "./pages/Cart.jsx";
 import About from "./pages/About.jsx";
 import Shop from "./pages/Shop.jsx";
 import Categories from "./pages/Categories.jsx";
-import CategoryProducts from "./pages/CategoryProducts.jsx"; // 👈 New page
-
+import CategoryProducts from "./pages/CategoryProducts.jsx";
 function App() {
   return (
     <>
@@ -24,8 +23,8 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/about" element={<About />} />
           <Route path="/shop" element={<Shop />} />
-          <Route path="/categories" element={<Categories />} /> {/* Categories list */}
-          <Route path="/categories/:category" element={<CategoryProducts />} /> {/* Products by category */}
+          <Route path="/categories" element={<Categories />} />
+          <Route path="/categories/:category" element={<CategoryProducts />} />
         </Routes>
       </main>
     </>
