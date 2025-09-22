@@ -60,15 +60,13 @@ git clone https://github.com/sebastian-sultz/Docs-Clone.git
 cd e-commerce
 ````
 
----
-
 ### 2️⃣ Install dependencies
 
 ```bash
 npm install
 ```
 
-3️⃣ Run the app
+### 3️⃣ Run the app
 
 ```bash
 npm run dev
