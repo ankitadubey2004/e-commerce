@@ -56,7 +56,7 @@ e-commerce/
 
 ### 1️⃣ Clone the repository  
 ```bash
-git clone https://github.com/sebastian-sultz/Docs-Clone.git
+git clone https://github.com/ankitadubey2004/e-commerce
 cd e-commerce
 ````
 

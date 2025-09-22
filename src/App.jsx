@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 // Components
 import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx"; // ✅ Import Footer
 
 // Pages
 import HomePage from "./pages/Home.jsx";
@@ -12,6 +13,7 @@ import About from "./pages/About.jsx";
 import Shop from "./pages/Shop.jsx";
 import Categories from "./pages/Categories.jsx";
 import CategoryProducts from "./pages/CategoryProducts.jsx";
+
 function App() {
   return (
     <>
@@ -27,6 +29,7 @@ function App() {
           <Route path="/categories/:category" element={<CategoryProducts />} />
         </Routes>
       </main>
+      <Footer /> {/* ✅ Footer added here */}
     </>
   );
 }
